@@ -1,0 +1,25 @@
+PING google.com (172.217.170.206): 56 data bytes
+64 bytes from 172.217.170.206: icmp_seq=0 ttl=113 time=63.110 ms
+64 bytes from 172.217.170.206: icmp_seq=1 ttl=113 time=39.075 ms
+64 bytes from 172.217.170.206: icmp_seq=2 ttl=113 time=39.809 ms
+64 bytes from 172.217.170.206: icmp_seq=3 ttl=113 time=30.427 ms
+64 bytes from 172.217.170.206: icmp_seq=4 ttl=113 time=41.505 ms
+64 bytes from 172.217.170.206: icmp_seq=5 ttl=113 time=39.835 ms
+64 bytes from 172.217.170.206: icmp_seq=6 ttl=113 time=45.296 ms
+64 bytes from 172.217.170.206: icmp_seq=7 ttl=113 time=56.636 ms
+64 bytes from 172.217.170.206: icmp_seq=8 ttl=113 time=63.050 ms
+64 bytes from 172.217.170.206: icmp_seq=9 ttl=113 time=44.000 ms
+64 bytes from 172.217.170.206: icmp_seq=10 ttl=113 time=31.547 ms
+64 bytes from 172.217.170.206: icmp_seq=11 ttl=113 time=34.381 ms
+64 bytes from 172.217.170.206: icmp_seq=12 ttl=113 time=38.706 ms
+64 bytes from 172.217.170.206: icmp_seq=13 ttl=113 time=52.034 ms
+64 bytes from 172.217.170.206: icmp_seq=14 ttl=113 time=51.962 ms
+64 bytes from 172.217.170.206: icmp_seq=15 ttl=113 time=33.714 ms
+64 bytes from 172.217.170.206: icmp_seq=16 ttl=113 time=45.193 ms
+64 bytes from 172.217.170.206: icmp_seq=17 ttl=113 time=44.633 ms
+64 bytes from 172.217.170.206: icmp_seq=18 ttl=113 time=42.672 ms
+64 bytes from 172.217.170.206: icmp_seq=19 ttl=113 time=37.385 ms
+
+--- google.com ping statistics ---
+20 packets transmitted, 20 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 30.427/43.748/63.110/9.205 ms
