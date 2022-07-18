@@ -37,7 +37,7 @@ services:
     container_name: iperf-client
     command: python iperf.py
     ports:
-      - "0.0.0.0:${IPERF_LISTEN_PORT}:${IPERF_LISTEN_PORT}/udp"
+      - "${IPERF_LISTEN_PORT}:${IPERF_LISTEN_PORT}/udp"
     tty: true
     environment:
       - "IPERF_INTERVAL=${IPERF_INTERVAL}"

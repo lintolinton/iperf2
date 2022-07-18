@@ -21,7 +21,7 @@ SPEEDTEST_HOST_IPERF = '10.8.17.42' if not os.environ.get('SPEEDTEST_HOST_IPERF'
 iperf_stdout_output = 'iperf_stdout.txt'
 ping_stdout_output = 'ping_stdout.txt'
 IPERF_INTERVAL = 10 if not os.environ.get('IPERF_INTERVAL') else int(os.environ.get('IPERF_INTERVAL'))
-IPERF_SERVER_INTERVAL = 10 if not os.environ.get('IPERF_SERVER_INTERVAL') else int(os.environ.get('IPERF_SERVER_INTERVAL'))
+IPERF_SERVER_INTERVAL = 1 if not os.environ.get('IPERF_SERVER_INTERVAL') else int(os.environ.get('IPERF_SERVER_INTERVAL'))
 IPERF_LISTEN_PORT = 29088 if not os.environ.get('IPERF_LISTEN_PORT') else int(os.environ.get('IPERF_LISTEN_PORT'))
 # queues for thread sync
 s_q = queue.Queue()
